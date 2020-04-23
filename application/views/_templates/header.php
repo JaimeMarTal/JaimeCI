@@ -1,7 +1,9 @@
 <div class="container">
+<a href="<?=base_url() ?>hdu/anonymous/login">LOGIN</a>
 <?php if ($header['persona']!=null):?>
 	Hola <?=$header['persona']->nombre?>
 <?php else:?>
-	Debes hacer login para entrar
+	<a href="<?=base_url() ?>hdu/anonymous/registrar">RESGISTRO</a>
+	<a href="<?=base_url()?>hdu/user/logout">Logout</a>
 <?php endif;?>
 </div>
