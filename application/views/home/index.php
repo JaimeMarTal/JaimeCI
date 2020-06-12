@@ -5,3 +5,5 @@
 		href="<?= base_url()?>aficion/r"><button>Afición</button></a> <a
 		href="<?= base_url()?>persona/r"><button>Persona</button></a>
 </div>
+
+<!-- kjvkjhvjvjhgv -->
